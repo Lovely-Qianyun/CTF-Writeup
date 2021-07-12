@@ -1,7 +1,7 @@
 # Base64修复
-## 1. 题目
+## 题目
 ZmmxhZ3t0aDE1MTU1bzBhc3l9
-## 2. 思路
+## 思路
 `flag`的Base64是`ZmxhZ3=`，再看题目给的字符串多了一个m  
 把m删去一个后再用base64解码直接得到flag  
 ```Python
